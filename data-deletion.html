@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>データの削除方法 - お手伝いバンク</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f9f9f9;
+        }
+        .container {
+            background: white;
+            border-radius: 8px;
+            padding: 40px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #F0B429;
+            border-bottom: 3px solid #F0B429;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #333;
+            margin-top: 30px;
+            border-left: 4px solid #F0B429;
+            padding-left: 10px;
+        }
+        .method-box {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .steps {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+        .steps ol {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .steps li {
+            margin: 8px 0;
+        }
+        .info-box {
+            background: #e7f3ff;
+            border-left: 4px solid #2196F3;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background: #f8f9fa;
+            font-weight: bold;
+        }
+        .delete-icon {
+            color: #dc3545;
+            font-weight: bold;
+        }
+        a {
+            color: #F0B429;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>データの削除方法</h1>
+        
+        <p>お手伝いバンクでは、アカウントを削除することなく、個別のデータを削除できます。プライバシーを保護しながら、必要なデータだけを残すことができます。</p>
+
+        <h2>📱 アプリ内で削除できるデータ</h2>
+        
+        <table>
+            <tr>
+                <th>データの種類</th>
+                <th>削除方法</th>
+                <th>削除の影響</th>
+            </tr>
+            <tr>
+                <td>お手伝い（個別）</td>
+                <td>お手伝い管理画面 → 削除ボタン</td>
+                <td>該当のお手伝いとポイント履歴が削除</td>
+            </tr>
+            <tr>
+                <td>ご褒美（個別）</td>
+                <td>ご褒美管理画面 → 削除ボタン</td>
+                <td>該当のご褒美と交換履歴が削除</td>
+            </tr>
+            <tr>
+                <td>子どものアカウント</td>
+                <td>設定 → こどもの管理 → 削除ボタン</td>
+                <td>その子どものデータすべて削除</td>
+            </tr>
+            <tr>
+                <td>完了済みのお手伝い</td>
+                <td>承認済みタブ → アーカイブ/削除</td>
+                <td>履歴から削除（ポイントは維持）</td>
+            </tr>
+        </table>
+
+        <h2>🗑️ お手伝いを削除する</h2>
+        <div class="method-box">
+            <h3>保護者モードでの操作</h3>
+            <div class="steps">
+                <ol>
+                    <li>保護者モードにログイン</li>
+                    <li>「お手伝い管理」タブを選択</li>
+                    <li>削除したいお手伝いの「編集」ボタンをタップ</li>
+                    <li>「削除」ボタンをタップ</li>
+                    <li>確認ダイアログで「削除する」を選択</li>
+                </ol>
+            </div>
+        </div>
+
+        <h2>🎁 ご褒美を削除する</h2>
+        <div class="method-box">
+            <h3>保護者モードでの操作</h3>
+            <div class="steps">
+                <ol>
+                    <li>保護者モードにログイン</li>
+                    <li>「ごほうび管理」タブを選択</li>
+                    <li>削除したいご褒美の「編集」ボタンをタップ</li>
+                    <li>「削除」ボタンをタップ</li>
+                    <li>確認ダイアログで「削除する」を選択</li>
+                </ol>
+            </div>
+        </div>
+
+        <h2>👤 子どものアカウントを削除する</h2>
+        <div class="method-box">
+            <h3>特定の子どものデータのみ削除</h3>
+            <div class="steps">
+                <ol>
+                    <li>保護者モードにログイン</li>
+                    <li>「設定」タブを選択</li>
+                    <li>「こどもの管理」セクションを表示</li>
+                    <li>削除したい子どもの横にある<span class="delete-icon">ゴミ箱アイコン</span>をタップ</li>
+                    <li>確認ダイアログで「削除する」を選択</li>
+                </ol>
+            </div>
+            <div class="info-box">
+                <strong>⚠️ 注意：</strong>子どものアカウントを削除すると、その子どもの以下のデータがすべて削除されます：
+                <ul style="margin: 10px 0;">
+                    <li>獲得ポイント</li>
+                    <li>お手伝い履歴</li>
+                    <li>ご褒美交換履歴</li>
+                </ul>
+            </div>
+        </div>
+
+        <h2>📊 履歴データをクリアする</h2>
+        <div class="method-box">
+            <h3>古いデータの整理</h3>
+            <div class="steps">
+                <ol>
+                    <li>保護者モードにログイン</li>
+                    <li>「承認」タブで完了済みのお手伝いを確認</li>
+                    <li>不要な履歴を選択</li>
+                    <li>「アーカイブ」または「削除」を選択</li>
+                </ol>
+            </div>
+            <p><strong>アーカイブ：</strong>進捗レポートには残るが、一覧からは非表示</p>
+            <p><strong>削除：</strong>完全に削除（ポイントは維持される）</p>
+        </div>
+
+        <h2>💡 削除のヒント</h2>
+        <ul>
+            <li>削除したデータは復元できません</li>
+            <li>ポイント残高は、履歴を削除しても維持されます</li>
+            <li>新しいお手伝いやご褒美はいつでも追加可能です</li>
+            <li>子どものアカウントは再作成できます</li>
+        </ul>
+
+        <h2>📧 サポートが必要な場合</h2>
+        <div class="info-box">
+            <p>アプリ内で削除できないデータや、一括削除をご希望の場合は、以下までご連絡ください：</p>
+            <p>
+                <strong>メールアドレス：</strong><a href="mailto:helpbank.app@gmail.com">helpbank.app@gmail.com</a><br>
+                <strong>件名：</strong>データ削除のリクエスト<br>
+                <strong>処理期間：</strong>3営業日以内
+            </p>
+        </div>
+
+        <hr style="margin-top: 40px; border: none; border-top: 1px solid #ddd;">
+        
+        <p style="text-align: center; color: #666; font-size: 14px;">
+            <a href="index.html">プライバシーポリシー</a> | 
+            <a href="delete-account.html">アカウント削除</a> | 
+            © 2024 お手伝いバンク
+        </p>
+    </div>
+</body>
+</html>
